@@ -11,7 +11,7 @@ body{
 }
 
 .main h1{
-   margin-top: 8rem;
+   margin-top: 5rem;
 }
 
 .main{
@@ -20,6 +20,7 @@ body{
    justify-content: center;
    align-items: center;
    margin: auto;
+   margin-bottom: 1rem;
    font-size: 1.5rem;
    gap: 5rem;
 }

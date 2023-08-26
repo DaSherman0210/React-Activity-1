@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.fullCard{
+    margin: .6rem;
+    border: 1px solid #aaaaaa;
+    border-radius: .7rem;
+}
+
+.cardBody{
+    margin: 1rem;
+}
+
+.cardBody button{
+    background-color: white;
+    padding: .4rem;
+    border: 1px solid #aaaaaa;
+    border-radius: 6px;
+    font-size: .9rem;
+}
+
+.info{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.info .h2--1{
+    letter-spacing: 0.1rem;
+}
+
+.info h2{
+    font-size: 2rem;
+}
+
+.info p{
+    font-size: 1.4rem;
+}
