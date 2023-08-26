@@ -1,4 +1,4 @@
-import InfoItem from "../InfoItem/infoItem.component";
+import InfoItem from "../productData/productData.component";
 import "./card.component.css"
 
 function Card(props) {
@@ -21,6 +21,24 @@ function Card(props) {
             name={props.items[2].name}
             description={props.items[2].description}
             price={props.items[2].price}
+         />
+         <InfoItem 
+            img={props.items[3].img}
+            name={props.items[3].name}
+            description={props.items[3].description}
+            price={props.items[3].price}
+         />
+         <InfoItem 
+            img={props.items[4].img}
+            name={props.items[4].name}
+            description={props.items[4].description}
+            price={props.items[4].price}
+         />
+         <InfoItem 
+            img={props.items[5].img}
+            name={props.items[5].name}
+            description={props.items[5].description}
+            price={props.items[5].price}
          />
       </div>
    )

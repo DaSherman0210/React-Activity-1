@@ -1,4 +1,4 @@
-import "./infoItem.component.css";
+import "./productData.component.css";
 
 function InfoItem(props) {
     return (
